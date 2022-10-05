@@ -208,7 +208,7 @@
 				"tailCall": false,
 				"threads": true
 			}
-		}
+		},
 		"wasm2c": {
 			"url": "https://github.com/WebAssembly/wabt",
 			"logo": "/images/wasm2c.svg",
