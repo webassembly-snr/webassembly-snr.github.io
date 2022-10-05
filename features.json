@@ -1,0 +1,213 @@
+{
+	"features": {
+		"bigInt": {
+			"description": "JS BigInt to Wasm i64 integration",
+			"url": "https://github.com/WebAssembly/JS-BigInt-integration",
+			"phase": 4
+		},
+		"bulkMemory": {
+			"description": "Bulk memory operations",
+			"url": "https://github.com/WebAssembly/bulk-memory-operations/blob/master/proposals/bulk-memory-operations/Overview.md",
+			"phase": 4
+		},
+		"exceptions": {
+			"description": "Exception handling",
+			"url": "https://github.com/WebAssembly/exception-handling/blob/master/proposals/exception-handling/Exceptions.md",
+			"phase": 3
+		},
+		"extendedConst": {
+			"description": "Extended constant expressions",
+			"url": "https://github.com/WebAssembly/extended-const/blob/master/proposals/extended-const/Overview.md",
+			"phase": 3
+		},
+		"memory64": {
+			"description": "Memory64",
+			"url": "https://github.com/WebAssembly/memory64/blob/master/proposals/memory64/Overview.md",
+			"phase": 3
+		},
+		"multiMemory": {
+			"description": "Multiple memories",
+			"url": "https://github.com/WebAssembly/multi-memory/blob/master/proposals/multi-memory/Overview.md",
+			"phase": 3
+		},
+		"moduleLinking": {
+			"description": "Module Linking",
+			"url": "https://github.com/WebAssembly/module-linking/blob/main/design/proposals/module-linking/Explainer.md",
+			"phase": 1
+		},
+		"multiValue": {
+			"description": "Multi-value",
+			"url": "https://github.com/WebAssembly/spec/blob/master/proposals/multi-value/Overview.md",
+			"phase": 4
+		},
+		"mutableGlobals": {
+			"description": "Import & export of mutable globals",
+			"url": "https://github.com/WebAssembly/mutable-global/blob/master/proposals/mutable-global/Overview.md",
+			"phase": 4
+		},
+		"referenceTypes": {
+			"description": "Reference types",
+			"url": "https://github.com/WebAssembly/reference-types/blob/master/proposals/reference-types/Overview.md",
+			"phase": 4
+		},
+		"relaxedSimd": {
+			"description": "Relaxed SIMD",
+			"url": "https://github.com/WebAssembly/relaxed-simd/tree/main/proposals/relaxed-simd",
+			"phase": 2
+		},
+		"saturatedFloatToInt": {
+			"description": "Non-trapping float-to-int conversions",
+			"url": "https://github.com/WebAssembly/spec/blob/master/proposals/nontrapping-float-to-int-conversion/Overview.md",
+			"phase": 4
+		},
+		"signExtensions": {
+			"description": "Sign-extension operations",
+			"url": "https://github.com/WebAssembly/spec/blob/master/proposals/sign-extension-ops/Overview.md",
+			"phase": 4
+		},
+		"simd": {
+			"description": "Fixed-width SIMD",
+			"url": "https://github.com/WebAssembly/simd/blob/master/proposals/simd/SIMD.md",
+			"phase": 4
+		},
+		"tailCall": {
+			"description": "Tail calls",
+			"url": "https://github.com/WebAssembly/tail-call/blob/master/proposals/tail-call/Overview.md",
+			"phase": 3
+		},
+		"threads": {
+			"description": "Threads and atomics",
+			"url": "https://github.com/WebAssembly/threads/blob/master/proposals/threads/Overview.md",
+			"phase": 2
+		},
+		"typeReflection": {
+			"description": "Type reflection",
+			"url": "https://github.com/WebAssembly/js-types/blob/main/proposals/js-types/Overview.md",
+			"phase": 2
+		}
+	},
+	"browsers": {
+		"Chrome": {
+			"url": "https://www.google.com/chrome/",
+			"logo": "/images/chrome.svg",
+			"features": {
+				"bigInt": "85",
+				"bulkMemory": "75",
+				"exceptions": "95",
+				"extendedConst": ["flag", "Requires flag `--js-flags=--experimental-wasm-extended-const`"],
+				"memory64": ["flag", "Requires flag `--js-flags=--experimental-wasm-memory64`"],
+				"multiValue": "85",
+				"mutableGlobals": "74",
+				"referenceTypes": "96",
+				"saturatedFloatToInt": "75",
+				"signExtensions": "74",
+				"simd": "91",
+				"tailCall": ["flag", "Requires flag `chrome://flags/#enable-experimental-webassembly-features`"],
+				"threads": "74"
+			}
+		},
+		"Firefox": {
+			"url": "https://www.mozilla.org/firefox/",
+			"logo": "/images/firefox.svg",
+			"features": {
+				"bigInt": "78",
+				"bulkMemory": "79",
+				"exceptions": "100",
+				"extendedConst": ["flag", "Enabled in Nightly, unavailable in Beta/Release"],
+				"memory64": ["flag", "Enabled in Nightly, unavailable in Beta/Release"],
+				"multiValue": "78",
+				"mutableGlobals": "61",
+				"referenceTypes": "79",
+				"relaxedSimd": ["flag", "Enabled in Nightly, unavailable in Beta/Release"],
+				"saturatedFloatToInt": "64",
+				"signExtensions": "62",
+				"simd": "89",
+				"threads": "79",
+				"typeReflection": ["flag", "Enabled in Nightly, unavailable in Beta/Release"]
+			}
+		},
+		"Safari": {
+			"url": "https://www.apple.com/safari/",
+			"logo": "/images/safari.svg",
+			"features": {
+				"bigInt": ["14.1", "Supported in desktop Safari since 14.1 and iOS Safari since 14.5"],
+				"bulkMemory": "15",
+				"exceptions": "15.2",
+				"multiValue": true,
+				"mutableGlobals": true,
+				"referenceTypes": "15",
+				"saturatedFloatToInt": "15",
+				"signExtensions": ["14.1", "Supported in desktop Safari since 14.1 and iOS Safari since 14.5"],
+				"threads": ["14.1", "Supported in desktop Safari since 14.1 and iOS Safari since 14.5"]
+			}
+		},
+		"Wasmtime": {
+			"url": "https://wasmtime.dev/",
+			"logo": "/images/bca.svg",
+			"version": "0.33",
+			"features": {
+				"bigInt": null,
+				"bulkMemory": true,
+				"memory64": ["flag", "Requires flag `--enable-memory64`"],
+				"multiMemory": ["flag", "Requires flag `--enable-multi-memory`"],
+				"moduleLinking": ["flag", "Requires flag `--enable-module-linking`"],
+				"multiValue": true,
+				"mutableGlobals": true,
+				"referenceTypes": true,
+				"saturatedFloatToInt": true,
+				"signExtensions": true,
+				"simd": true
+			}
+		},
+		"Wasmer": {
+			"url": "https://wasmer.io/",
+			"logo": "/images/wasmer.svg",
+			"features": {
+				"bigInt": null,
+				"bulkMemory": true,
+				"multiValue": true,
+				"mutableGlobals": true,
+				"referenceTypes": true,
+				"saturatedFloatToInt": true,
+				"signExtensions": true,
+				"simd": true,
+				"threads": ["flag", "Requires flag `--enable-threads`"]
+			}
+		},
+		"Node.js": {
+			"url": "https://nodejs.org/",
+			"logo": "/images/nodejs.svg",
+			"features": {
+				"bigInt": true,
+				"bulkMemory": true,
+				"exceptions": ["flag", "Requires flag `--experimental-wasm-eh`"],
+				"extendedConst": ["flag", "Requires flag `--experimental-wasm-extended-const`"],
+				"multiValue": true,
+				"mutableGlobals": true,
+				"referenceTypes": ["flag", "Requires flag `--experimental-wasm-reftypes`"],
+				"saturatedFloatToInt": true,
+				"signExtensions": true,
+				"simd": true,
+				"tailCall": ["flag", "Requires flag `--experimental-wasm-return-call`"],
+				"threads": true
+			}
+		},
+		"Deno": {
+			"url": "https://deno.land/",
+			"logo": "/images/deno.svg",
+			"features": {
+				"bigInt": true,
+				"bulkMemory": true,
+				"exceptions": true,
+				"multiValue": true,
+				"mutableGlobals": true,
+				"referenceTypes": true,
+				"saturatedFloatToInt": true,
+				"signExtensions": true,
+				"simd": true,
+				"tailCall": false,
+				"threads": true
+			}
+		}
+	}
+}
