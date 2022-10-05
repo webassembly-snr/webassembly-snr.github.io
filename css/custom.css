@@ -1966,7 +1966,6 @@ pre code::before, pre code::after {
 #feature-support {
   white-space: nowrap;
   cursor: default;
-  margin: 0;
 }
 
 #feature-support>caption {
