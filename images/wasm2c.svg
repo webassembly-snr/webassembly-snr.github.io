@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 243.24516 107.62"
+   viewBox="0 0 277.24518 127.62"
    version="1.1"
    id="svg39"
-   sodipodi:docname="wasm2c.svg"
-   width="243.24516"
-   height="107.62"
+   sodipodi:docname="wasm2c-logo.svg"
+   width="277.24518"
+   height="127.62"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,13 +25,13 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:snap-bbox="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
      inkscape:zoom="3.3190062"
-     inkscape:cx="134.07628"
-     inkscape:cy="52.274684"
+     inkscape:cx="146.42937"
+     inkscape:cy="62.217419"
      inkscape:window-width="1920"
      inkscape:window-height="1031"
      inkscape:window-x="0"
@@ -81,28 +81,17 @@
        xlink:href="#WA-Gradient"
        id="linearGradient20626"
        x1="141.35158"
-       y1="78.514999"
+       y1="78.515001"
        x2="174.55289"
-       y2="78.514999"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.1522283,0,0,1.1522283,-4.4569246,-0.42992462)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#WA-Gradient"
-       id="linearGradient842"
-       gradientUnits="userSpaceOnUse"
-       x1="141.35158"
-       y1="78.514999"
-       x2="174.55289"
-       y2="78.514999"
-       gradientTransform="matrix(1.1522283,0,0,1.1522283,-4.4569246,-0.42992462)" />
+       y2="78.515001"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <title
      id="title6">web-assembly-logo</title>
   <g
      id="Layer_2"
      data-name="Layer 2"
-     transform="translate(-22.722414,-22.405526)">
+     transform="translate(-12.722414,-12.405526)">
     <g
        id="icon"
        transform="translate(-74.707586,22.405526)">
@@ -113,22 +102,21 @@
          id="path32" />
       <polygon
          class="cls-2"
-         points="183.87,81.37 180.3,67.39 177.3,67.39 174.19,81.37 "
+         points="177.3,67.39 174.19,81.37 183.87,81.37 180.3,67.39 "
          id="polygon34" />
     </g>
     <path
-       d="m 238.52075,64.153727 c 0,0 -1.52212,-14.19142 -15.60285,-14.585501 -14.08075,-0.394082 -21.31229,10.643564 -21.31229,26.411592 0,15.768027 7.99204,28.383132 21.69239,28.383132 13.70063,0 15.22275,-15.76804 15.22275,-15.76804 l 26.25898,1.576608 c 0,0 1.54614,14.241172 -9.44231,25.106382 -10.98874,10.86435 -24.47639,12.63939 -33.89551,12.56561 -9.41912,-0.0752 -22.4786,0.14757 -35.10767,-12.78724 -12.62906,-12.93484 -14.7722,-25.500471 -14.7722,-37.843899 0,-12.343986 2.39496,-28.696148 17.41115,-41.096312 10.20533,-8.426085 20.55068,-11.530668 30.8977,-11.530668 43.19557,0 46.09668,39.839723 46.09668,39.839723 z"
+       d="m 252.52077,64.153727 c 0,0 -1.52212,-14.19142 -15.60285,-14.585501 -14.08075,-0.394082 -21.31229,10.643564 -21.31229,26.411592 0,15.768027 7.99204,28.383132 21.69239,28.383132 13.70063,0 15.22275,-15.76804 15.22275,-15.76804 l 26.25898,1.576608 c 0,0 1.54614,14.241172 -9.44231,25.106382 -10.98874,10.86435 -24.47639,12.63939 -33.89551,12.56561 -9.41912,-0.0752 -22.4786,0.14757 -35.10767,-12.78724 -12.62906,-12.93484 -14.7722,-25.500471 -14.7722,-37.843899 0,-12.343986 2.39496,-28.696148 17.41115,-41.096312 10.20533,-8.426085 20.55068,-11.530668 30.8977,-11.530668 43.19557,0 46.09668,39.839723 46.09668,39.839723 z"
        id="path3"
        inkscape:connector-curvature="0"
        style="fill:#a8b9cc;stroke-width:1" />
     <g
        aria-label="→"
        id="text12759"
-       style="font-size:45.3611px;line-height:1.25;font-family:'ACaslon Regular';-inkscape-font-specification:'ACaslon Regular, ';letter-spacing:0px;fill:url(#linearGradient20626);fill-opacity:1;stroke:none;stroke-width:0.288057"
-       transform="matrix(0.86788353,0,0,0.86788353,13.868091,10.373125)">
+       style="font-size:45.3611px;line-height:1.25;font-family:'ACaslon Regular';-inkscape-font-specification:'ACaslon Regular, ';letter-spacing:0px;fill:url(#linearGradient20626);fill-opacity:1;stroke:none;stroke-width:0.25">
       <path
          d="m 174.55289,77.518297 v 1.993407 l -8.70455,8.704547 -2.65787,-2.657877 5.16071,-5.160711 h -26.9996 v -3.765325 h 26.9996 l -5.16071,-5.160711 2.65787,-2.657877 z"
-         style="font-family:Roboto;-inkscape-font-specification:Roboto;fill:url(#linearGradient842);fill-opacity:1;stroke:none;stroke-width:0.288057"
+         style="font-family:Roboto;-inkscape-font-specification:Roboto;fill:url(#linearGradient20626);fill-opacity:1;stroke:none"
          id="path18697" />
     </g>
   </g>
