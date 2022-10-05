@@ -1883,6 +1883,7 @@ table {
   /* https://bugzilla.mozilla.org/show_bug.cgi?id=1005271 */
   /* display: block; */
   width: 100%;
+  overflow: auto;
 }
 
 table th {
@@ -1958,7 +1959,8 @@ pre code::before, pre code::after {
 }
 
 #feature-support-scrollbox {
-  overflow: auto visible;
+  overflow-x: auto;
+  overflow-y: hidden;
   margin: 0 0 16px 0;
 }
 
